@@ -5,8 +5,8 @@
 Briefly describe what this Java console application does. Mention its purpose and who the intended users are. Explain the main functionality and what problems it aims to solve.
 
 ![Class Diagram](path/to/your/class_diagram.png)
-
-## User Stories
+ 
+   ## User  Stories
 
 List the user stories that guided the development of your application. Format these stories as: "As a [type of user], I want [some goal] so that [some reason]."
 
