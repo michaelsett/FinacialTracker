@@ -1,71 +1,62 @@
-# Project Title
+# Financial Tracker
 
-## Description of the Project
+## Description of the Project  
+This is a basic Java console app that helps users keep track of their money. You can add deposits, make payments, and view a ledger of all your transactions. It's designed for people who want a simple way to manage their personal finances without needing a complicated app.
 
-Briefly describe what this Java console application does. Mention its purpose and who the intended users are. Explain the main functionality and what problems it aims to solve.
+## Class Diagram
 
-![Class Diagram](path/to/your/class_diagram.png)
- 
-   ## User  Stories
+![Class Diagram](./classdiagram.png.png)
 
-List the user stories that guided the development of your application. Format these stories as: "As a [type of user], I want [some goal] so that [some reason]."
+## User Stories  
+- As a user, I want to be able to input my data, so that the application can process it accordingly.  
 
-- As a user, I want to be able to input my data, so that the application can process it accordingly.
 - As a user, I want to receive immediate feedback, so I can understand what to do next.
 
-## Setup
+- As a user, I want to add deposits so that I can keep track of the money I receive.
 
-Instructions on how to set up and run the project using IntelliJ IDEA.
+- As a user, I want to enter payments so that I can monitor where my money is going.
 
-### Prerequisites
+- As a user, I want to view all my transactions in one place so that I can manage my finances better.
 
-- IntelliJ IDEA: Ensure you have IntelliJ IDEA installed, which you can download from [here](https://www.jetbrains.com/idea/download/).
-- Java SDK: Make sure Java SDK is installed and configured in IntelliJ.
+- As a user, I want to filter my transactions by vendor so that I can see how much I’ve spent at a specific place.
 
-### Running the Application in IntelliJ
+- As a user, I want to generate reports based on date ranges so that I can review my spending over time.
 
-Follow these steps to get your application running within IntelliJ IDEA:
+## Setup  
 
-1. Open IntelliJ IDEA.
-2. Select "Open" and navigate to the directory where you cloned or downloaded the project.
-3. After the project opens, wait for IntelliJ to index the files and set up the project.
-4. Find the main class with the `public static void main(String[] args)` method.
-5. Right-click on the file and select 'Run 'YourMainClassName.main()'' to start the application.
+### Prerequisites  
+- **IntelliJ IDEA**: Make sure you have IntelliJ installed. [Download IntelliJ IDEA](https://www.jetbrains.com/idea/download/)  
+- **Java SDK**: This project uses Java 17. You need to have it installed and configured in IntelliJ.
 
-## Technologies Used
+### Running the Application in IntelliJ  
+1. Open IntelliJ IDEA.  
+2. Click “Open” and find the folder where you saved or cloned the project.  
+3. Wait for IntelliJ to finish loading everything.  
+4. Find the class called `FinacialTracker.java` — it has the `main` method.  
+5. Right-click it and press `Run 'FinacialTracker.main()'`.
 
-- Java: Mention the version you are using.
-- Any additional libraries or frameworks used in the project.
+## Technologies Used  
+- Java 17  
+- No external libraries used (just built-in Java stuff)
 
-## Demo
+## Demo  
+Here’s what the app looks like while running:
 
-Include screenshots or GIFs that show your application in action. Use tools like [Giphy Capture](https://giphy.com/apps/giphycapture) to record a GIF of your application.
+**Main Menu:**  
+![Main Menu](./main-menu.png.png)
 
-![Application Screenshot](path/to/your/screenshot.png)
+## Future Work  
+- Add categories to transactions (like "food", "rent", etc.)  
+- Improve the interface or make a basic GUI  
+- Export reports to text or PDF
 
-## Future Work
+## Resources  
+- Java Programming Basics-YouTube  
+- 
+- Raymond's Demos
 
-Outline potential future enhancements or functionalities you might consider adding:
+## Team Members  
+- Michael Settle – Wrote the code and tested everything, with help of course
 
-- Additional feature to be developed.
-- Improvement of current functionalities.
-
-## Resources
-
-List resources such as tutorials, articles, or documentation that helped you during the project.
-
-- [Java Programming Tutorial](https://www.example.com)
-- [Effective Java](https://www.example.com)
-
-## Team Members
-
-- **Name 1** - Specific contributions or roles.
-- **Name 2** - Specific contributions or roles.
-
-## Thanks
-
-Express gratitude towards those who provided help, guidance, or resources:
-
-- Thank you to [Mentor's Name] for continuous support and guidance.
-- A special thanks to all teammates for their dedication and teamwork.
- 
+## Thanks  
+Thanks to our instructor Raymond for teaching me Java and giving me feedback.
